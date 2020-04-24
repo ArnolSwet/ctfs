@@ -39,3 +39,29 @@ If the web takes directly whatever you writes and don't check if it's a normal t
 There it is!
 
 This is a REALLY BIG PROBLEM (not for me :) ) because with something like this, you can put something like `<script>ABSOLUTLY_WHATEVER_YOU_WANT</script>`  
+
+##### BTW! The form that we use to prove if it was vulnerable to XSS is the simplest way, and easily avoidable. BUT! There are more ways to prove that a web has a XSS Vulnerability (If the way that I used doesn't works, it doesn't mean that it's not vulnerable to XSS). But this is the level 0 and this way it's enough.
+
+Before moving on, let's look the source code of the HTML:
+
+`<center>
+<form method="get" action="index.php">
+<pre>
+65 20 63 20 61 20 62 20 64
+</pre>
+<label>Phormulae</label>
+<input name="a">
+</form>
+<form method="get" action="index.php">
+<label>Next phormulae</label>
+<input name="c" value="63">
+</form>
+
+
+
+
+<hr>-><h1>XSS found</h1><br><font color='red'><i>I need more info!</i></font></center>`
+
+As I mentioned before, the web takes all we insert on the form and put it directly on html code.
+
+
