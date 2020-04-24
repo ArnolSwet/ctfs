@@ -44,23 +44,23 @@ This is a REALLY BIG PROBLEM (not for me :) ) because with something like this, 
 
 Before moving on, let's look the source code of the HTML:
 
-`<center>
-<form method="get" action="index.php">
-<pre>
-65 20 63 20 61 20 62 20 64
-</pre>
-<label>Phormulae</label>
-<input name="a">
-</form>
-<form method="get" action="index.php">
-<label>Next phormulae</label>
-<input name="c" value="63">
-</form>
-
-
-
-
-<hr>-><h1>XSS found</h1><br><font color='red'><i>I need more info!</i></font></center>`
+`<center>`
+`<form method="get" action="index.php">`
+`<pre>`
+`65 20 63 20 61 20 62 20 64`
+`</pre>`
+`<label>Phormulae</label>`
+`<input name="a">`
+`</form>`
+`<form method="get" action="index.php">`
+`<label>Next phormulae</label>`
+`<input name="c" value="63">`
+`</form>`
+``
+``
+``
+``
+`<hr>-><h1>XSS found</h1><br><font color='red'><i>I need more info!</i></font></center>`
 
 As I mentioned before, the web takes all we insert on the form and put it directly on html code.
 
