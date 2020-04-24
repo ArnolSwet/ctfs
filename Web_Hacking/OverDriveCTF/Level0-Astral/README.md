@@ -28,7 +28,7 @@ So the form will print whatever we put on the text field.
 
 Okey so I'm gonna try if it could have a XSS vulnerability.
 
-#####XSS(Cross-Site-Scripting) is a type of a vulnerability that allows the injection of code on the client-site of a web application
+##### XSS(Cross-Site-Scripting) is a type of a vulnerability that allows the injection of code on the client-site of a web application
 
 To try this I can put something as simple as `<h1>XSS found</h1>`
 
