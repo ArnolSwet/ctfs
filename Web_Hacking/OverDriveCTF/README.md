@@ -1,6 +1,6 @@
-#OVERDRIVE CTF
+# OVERDRIVE CTF
 
-This is the challenges of OverDrive conference. A differents challenges of diferents types of hacking techniques.
+This are the challenges of OverDrive conference. A differents challenges of diferents types of hacking techniques.
 
 In this challenges you have to find a flag with this format: flag{md5hash}
 
@@ -17,4 +17,4 @@ Also you can find all information about this conference and their organitzation 
 
 
 
-###Let's hack!
+### Let's hack!
