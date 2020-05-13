@@ -50,9 +50,9 @@ See ya
 
 
 <!--
-                                                                                                                                                                                                                Je crois que c'est vraiment trop simple là ! 
-                                                                                                                                                                                                                It's really too easy !
-                                                                                                                                                                                                                password : nZ^&@q5&sjJHev0
+                                                                                                                             Je crois que c'est vraiment trop simple là ! 
+                                                                                                                             It's really too easy !
+                                                                                                                             password : nZ^&@q5&sjJHev0
 
 -->
 
@@ -62,7 +62,7 @@ See ya
 As we can see this level it's really easy and we can find directly the password on the source code as a comment. Here we have: **password: nZ^&@q5&sjJHev0**
 
 Now, he can put this password on the form and we have this:
-![Correct Password](.img/PasswordCorrect.png)
+![Correct Password](./img/PasswordCorrect.png)
 
 So we can validate the challenge to win the points introducing this password that we found.
 
